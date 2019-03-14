@@ -1,6 +1,6 @@
-
 # selfselectmodel
 该框架实现了基于Sklearn的模型自动优化，特征自动选择。其中test.py提供了框架的使用案例
+
 框架需要传入3个自定义函数:
 1. SelectKBestFeature()类需要传入用于选择特征的自定义函数
 2. HyperParamsOpt()类需要传入用于训练的模型
